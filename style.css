@@ -1,0 +1,226 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #f4b3c2;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-content {
+  display: flex;
+  width: 78.3125rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  color: var(--CTA, #d14d72);
+  font-family: Montserrat;
+  font-size: 0.9375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.625rem; /* 173.333% */
+  letter-spacing: -0.00625rem;
+}
+
+a{
+  color: var(--CTA, #d14d72);
+}
+
+l{
+  color: var(--CTA, #d14d72);
+
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.evaluation {
+  width: fit-content;
+  text-align: left;
+}
+
+.btn-primary {
+  background-color: #e94b8b;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.team-picture {
+  width: 600px;
+  display: inline-flex;
+  height: 29.6875rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  border-radius: 1.25rem;
+  background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.1) 0%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    #fff;
+}
+
+h3 {
+  color: #e94b8b;
+  font-family: Montserrat;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.125rem; /* 141.667% */
+  letter-spacing: -0.03125rem;
+  width: fit-content;
+}
+
+.hero {
+  padding: 50px;
+  text-align: center;
+}
+
+.hero h2 {
+  margin: 0;
+  color: #fff;
+}
+
+.hero p {
+  color: #fff;
+}
+
+.services {
+  text-align: center;
+}
+
+.about-studio,
+.team,
+.testimonial,
+.statistics,
+.services,
+.portfolio,
+.academy {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+h2 {
+  color: var(--CTA, #d14d72);
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.10156rem;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+p {
+  width: fit-content;
+}
+
+.team-description {
+  display: inline-flex;
+  height: 11.5625rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.about-studio img {
+  border-radius: 50%;
+  width: 150px;
+}
+
+.social-proof span {
+  display: block;
+  margin-top: 10px;
+}
+
+.testimonial-content {
+  font-weight: 700;
+  color: #141414;
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-flex;
+  gap: 5%;
+}
+
+.statistics .stat {
+  display: inline-block;
+  margin: 20px;
+}
+
+h4 {
+  color: #161c2d;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.625rem; /* 120.833% */
+  letter-spacing: -0.1125rem;
+}
+
+.service {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.875rem;
+}
+
+.footer-content {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content a {
+  color: #e94b8b;
+  text-decoration: none;
+}
+
+.rights {
+  display: flex;
+  width: 1600px;
+  height: 68px;
+  padding: 20px 83px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  background: #580019;
+  color: var(--White, #fff);
+  font-family: Montserrat;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 173.333% */
+  letter-spacing: -0.1px;
+}
+
+header {
+  background-image: url(/images/bg.png);
+}
